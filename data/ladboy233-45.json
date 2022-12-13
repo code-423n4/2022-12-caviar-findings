@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Division by zero error reverts transaction",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/45"
+}
