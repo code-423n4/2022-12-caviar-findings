@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ktg",
+  "risk": "3",
+  "title": "Pair AMM functions will not work due to the lack of initial fractional token balance and mint function.",
+  "issueId": 38,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/38"
+}
