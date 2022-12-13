@@ -20,3 +20,9 @@ for (uint256 i = 32; i < 64) {
             unchecked{++i};                // @audit
 }
 ```
+
+G2. https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/lib/SafeERC20Namer.sol#L55
+precomputing the expression can save gas:
+```
+ return Strings.toHexString(uint160(token) >> 144);
+```
