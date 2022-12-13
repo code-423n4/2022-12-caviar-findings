@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Bad user can purchase a fractional of token and transfer to address(0) or to  to make the NFT not reedemable",
+  "issueId": 16,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/16"
+}
