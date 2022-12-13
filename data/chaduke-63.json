@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "chaduke",
+  "risk": "3",
+  "title": "A malicious user can recreate a Pair right after it has been destroyed",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/63"
+}
