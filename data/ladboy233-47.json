@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Add Liquidity inbound operation should be disabled once the pool is closed",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/47"
+}
