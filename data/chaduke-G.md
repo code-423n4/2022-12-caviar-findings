@@ -26,3 +26,6 @@ precomputing the expression can save gas:
 ```
  return Strings.toHexString(uint160(token) >> 144);
 ```
+
+G3. https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L379-L381
+Implementing ``baseTokenReserves()`` directly without another level of call of `` _baseTokenReserves();`` can save gas.
