@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "The code does not handle the token that are not 18 decimals well.",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/53"
+}
