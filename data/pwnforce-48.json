@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "pwnforce",
+  "risk": "3",
+  "title": "FAKE BALANCES CAN BE CREATED FOR NOT-YET-EXISTING ERC20 TOKENS, WHICH ALLOWS ATTACKERS TO SET TRAPS TO STEAL FUNDS FROM FUTURE USERS",
+  "issueId": 48,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/48"
+}
