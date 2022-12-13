@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "cccz",
+  "risk": "2",
+  "title": "A malicious early user/attacker can manipulate the LpToken's pricePerLpToken to take an unfair share of future users' add",
+  "issueId": 33,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/33"
+}
