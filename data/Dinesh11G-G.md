@@ -93,7 +93,29 @@ Manual code review
 Long Revert Strings
 
 #### Impact
-Issue Information: [G007](https://github.com/byterocket/c4-common-issues/blob/main/0-Gas-Optimizations.md#g007---long-revert-strings)
+Issue Information: 
+Shortening revert strings to fit in 32 bytes will decrease gas costs for deployment and gas costs when the revert condition has been met.
+
+If the contract(s) in scope allow using Solidity >=0.8.4, consider using Custom Errors as they are more gas efficient while allowing developers to describe the error in detail using NatSpec.
+
+Example
+🤦 Bad:
+
+require(condition, "UniswapV3: The reentrancy guard. A transaction cannot re-enter the pool mid-swap");
+🚀 Good (with shorter string):
+
+// TODO: Provide link to a reference of error codes
+require(condition, "LOK");
+🚀 Good (with custom errors):
+
+/// @notice A transaction cannot re-enter the pool mid-swap.
+error NoReentrancy();
+
+// ...
+
+if (!condition) {
+    revert NoReentrancy();
+}
 
 #### Findings:
 ```
