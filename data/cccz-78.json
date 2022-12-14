@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "cccz",
+  "risk": "2",
+  "title": "When the baseToken is an ERC777 token, the reentrancy in add() allows the user to spend less baseToken when calling buy()",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/78"
+}
