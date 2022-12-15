@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "shung",
+  "risk": "3",
+  "title": "Unspent reserve tokens are not refunded after adding liquidity",
+  "issueId": 90,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/90"
+}
