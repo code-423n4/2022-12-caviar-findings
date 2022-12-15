@@ -1,6 +1,6 @@
 # 1. `SafeERC20Namer.addressToSymbol` implementation does not adhere to specification, causing LP symbol/name to be incorrect in some cases
 
-Fuzzying the existing test testItSetsSymbolsAndNames with Foundry yields an error on the function `SafeERC20Namer.addressToSymbol`. When it is called on the token address `0`, it will incorrectly return `0x00`, and not `0x0000` as expected from the specification.
+By fuzzying the existing test testItSetsSymbolsAndNames with Foundry, the test yields an error on the function `SafeERC20Namer.addressToSymbol`. When this function is called on the token address `0`, it will incorrectly return `0x00`, and not `0x0000` as expected from the specification. The issue is related to `Strings.toHexString` used under the hood.
 
 ## Test case
 
@@ -151,4 +151,3 @@ index 2d8e57b..320353b 100644
  
 
 ```
-
