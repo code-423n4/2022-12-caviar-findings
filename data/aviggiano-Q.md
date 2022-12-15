@@ -5,19 +5,6 @@ Fuzzying the existing test testItSetsSymbolsAndNames with Foundry yields an erro
 ## Test case
 
 ```diff
-diff --git a/src/lib/SafeERC20Namer.sol b/src/lib/SafeERC20Namer.sol
-index 2d8e57b..dfef197 100644
---- a/src/lib/SafeERC20Namer.sol
-+++ b/src/lib/SafeERC20Namer.sol
-@@ -51,7 +51,7 @@ library SafeERC20Namer {
- 
-     // uses a heuristic to produce a token symbol from the address
-     // the heuristic returns the first 4 hex of the address string
--    function addressToSymbol(address token) private pure returns (string memory) {
-+    function addressToSymbol(address token) public pure returns (string memory) {
-         return Strings.toHexString(uint160(token) >> (160 - 4 * 4));
-     }
- 
 diff --git a/test/Caviar/Create.t.sol b/test/Caviar/Create.t.sol
 index 965a5aa..2baeb32 100644
 --- a/test/Caviar/Create.t.sol
