@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "cozzetti",
+  "risk": "3",
+  "title": "Flawed price calculation for fractional tokens",
+  "issueId": 117,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/117"
+}
