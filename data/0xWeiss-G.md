@@ -27,3 +27,36 @@ AFTER:
             ERC721(nft).safeTransferFrom(address(this), msg.sender, tokenIds[i]);
 unchecked {   ++ i ; }      
         }
+
+3 SAME USECASE for lines https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L468-L471
+
+Add unchecked in the for loop
+
+BEFORE:
+for (uint256 i = 0; i < tokenIds.length; ) {
+            bool isValid = MerkleProofLib.verify(proofs[i], merkleRoot, keccak256(abi.encodePacked(tokenIds[i])));
+            require(isValid, "Invalid merkle proof");
+unchecked {   ++ i ; }    
+        }
+
+AFTER:
+for (uint256 i = 0; i < tokenIds.length; ) {
+            bool isValid = MerkleProofLib.verify(proofs[i], merkleRoot, keccak256(abi.encodePacked(tokenIds[i])));
+            require(isValid, "Invalid merkle proof");
+unchecked {   ++ i ; }    
+        }
+
+
+4 Gas saving using onlyOwner modifier instead of adding the same require statement in different functions.
+Lines: 
+-https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L343
+-https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L361
+
+Take out this lines and add a modifier in the beginning of the contract:
+
+modifier onlyOwner(){
+require(owner == msg.sender, "not owner");
+_;
+}
+
+Initialize the variable owner in the constructor and add this modifier to both functions instead of the requirement statement listed on the above links
