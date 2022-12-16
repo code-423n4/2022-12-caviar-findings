@@ -13,3 +13,9 @@ The [`_validateTokenIds` function](https://github.com/code-423n4/2022-12-caviar/
 In the [`_validateTokenIds` function](https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L463) of the `Pair` contract, there's a `for` loop that accesses the `proofs` and `tokenIds` parameters with the same index. The function implicitly assumes the arrays have the same length, yet it doesn't explicitly verify it. If the `proofs` array is shorter than the `tokenIds` array, execution will unexpectedly revert due to an out-of-bounds access.
 
 It's best to always make function requirements explicit, so as to fail early and loudly. Include a `require` statement to ensure the two arrays have the same length.
+
+### Closed pair still accepts liquidity
+
+In an emergency exit, the owner will trigger the [`close` function](https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L341) on the `Pair` contract. In this scenario, it is expected for all users to withdraw their assets from the pair and unwrap their NFTs. However, there's nothing preventing users to (erroneously) continue providing liquidity via the `add` function.
+
+Given this scenario is not tested, it is unclear whether this is an expected behavior or not. If it is expected, document and test it. If it's not, add a `require` statement in the `add` function to ensure users cannot supply more assets to a pair that is undergoing an emergency exit.
