@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "rvierdiiev",
+  "risk": "3",
+  "title": "Pair.unwrap doesn't validate that token is allowed for trading in pool",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/109"
+}
