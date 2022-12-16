@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "cozzetti",
+  "risk": "2",
+  "title": "Potentially malformed token name and symbol",
+  "issueId": 112,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/112"
+}
