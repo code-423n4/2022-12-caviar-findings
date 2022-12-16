@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "rvierdiiev",
+  "risk": "3",
+  "title": "After Pair.close was called it's still possible to add liquidity",
+  "issueId": 110,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/110"
+}
