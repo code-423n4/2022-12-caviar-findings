@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "rvierdiiev",
+  "risk": "3",
+  "title": "Reentrancy attack is possible when using ERC777 tokens in Pair",
+  "issueId": 111,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/111"
+}
