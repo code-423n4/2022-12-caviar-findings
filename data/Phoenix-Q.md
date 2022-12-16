@@ -1,17 +1,6 @@
 ## Missing validation address
 
-The zero address can be minted in `_mint(...)` function. 
-
-File: [src/LpToken.sol#L19](https://github.com/code-423n4/2022-12-caviar/blob/main/src/LpToken.sol#L19)
-
-```solidity=
-
-    function mint(address to, uint256 amount) public onlyOwner {
-        _mint(to, amount);
-    }
-```
-
-Similarly, the constructor in `Pair` contract does not validate the address `_nft`. Once this address is set, there is no way to change. 
+The constructor in `Pair` contract does not validate the address `_nft`. This variable could be set as `address(0)` as mistake. Once this address is set, there is no way to change. 
 
 File: [src/Pair.sol#L39](https://github.com/code-423n4/2022-12-caviar/blob/main/src/Pair.sol#L39)
 
@@ -32,6 +21,4 @@ File: [src/Pair.sol#L39](https://github.com/code-423n4/2022-12-caviar/blob/main/
     }
 ```
 
-**Recommendation:** Ensure that `to` and `_nft` addresses are not `address(0)`.
-
----
+**Recommendation:** Ensure that `_nft` address is not `address(0)`.
