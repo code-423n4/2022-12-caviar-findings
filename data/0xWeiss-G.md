@@ -67,7 +67,7 @@ It is cheaper to do  balanceOf[from] = balanceOf[from] - amount;  than balanceOf
 the same in line: https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L453
 before: balanceOf[to] += amount;  after: balanceOf[to] = balanceOf[to] + amount;
 
-6 It is cheaper to use another syntax to concatenate strings using abi.ecodePacked() in line: https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/LpToken.sol#L13
+6 It is cheaper to use another syntax to concatenate strings using abi.ecodePacked() in line: https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/LpToken.sol#L13. Same issue in line https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Caviar.sol#L36, the solution is to use the expression below
 
 SOLUTION
 Instead of using string.concat(pairSymbol, " LP token"), use string(abi.encodePacked(pairSymbol," LP token"))
