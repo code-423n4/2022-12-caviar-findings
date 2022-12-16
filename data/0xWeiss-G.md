@@ -60,3 +60,9 @@ _;
 }
 
 Initialize the variable owner in the constructor and add this modifier to both functions instead of the requirement statement listed on the above links
+
+5 Optimizing two operations in lines https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L448-L454
+
+It is cheaper to do  balanceOf[from] = balanceOf[from] - amount;  than balanceOf[from] -= amount; in line https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L448
+the same in line: https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L453
+before: balanceOf[to] += amount;  after: balanceOf[to] = balanceOf[to] + amount;
