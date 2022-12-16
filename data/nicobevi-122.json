@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "nicobevi",
+  "risk": "3",
+  "title": "Since there is no validation that the proportion between token1 and token2 remains the same when a liquidity provider adds more liquidity to the pool, there is a chance of losing funds for some liquidity providers.",
+  "issueId": 122,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/122"
+}
