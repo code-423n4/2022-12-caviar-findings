@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "obront",
+  "risk": "",
+  "title": "Price will not always be 18 decimals, as expected and outlined in the comments",
+  "issueId": 141,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/141"
+}
