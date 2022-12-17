@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "caventa",
+  "risk": "",
+  "title": "BaseTokenReserves calculates balance differently for native coin and ERC20 token",
+  "issueId": 189,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/189"
+}
