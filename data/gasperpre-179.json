@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "gasperpre",
+  "risk": "",
+  "title": "fee-on-transfer `baseToken` causes wrong accounting",
+  "issueId": 179,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/179"
+}
