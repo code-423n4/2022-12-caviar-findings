@@ -1,0 +1,1 @@
+Use prettier to format code - looks much better and is easier to read.
