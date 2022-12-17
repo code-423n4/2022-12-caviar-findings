@@ -5,7 +5,7 @@
 
 Two gas optimisations in two areas were found other than the [C4udit](https://gist.github.com/Picodes/42f9144fd8cba738f3a7098411737760) public findings.
 - [Owned.sol not functionally implemented](#owned.sol-not-functionally-implemented-in-caviar.sol)
-- [Additional to automated Gas-3](#additional-to-auto-audit-finding)
+- [Additional to automated Gas-3](#additional-to-auto-c4audit-finding)
 
 ---
 
@@ -51,7 +51,7 @@ constructor() { owner = msg.sender; }
 
 ---
 
-### Additional to auto audit finding
+### Additional to auto C4audit finding
 
 - Finding [Gas-3](https://gist.github.com/Picodes/42f9144fd8cba738f3a7098411737760#gas-3-cache-array-length-outside-of-loop)
 
