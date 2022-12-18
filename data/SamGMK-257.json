@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "SamGMK",
+  "risk": "",
+  "title": "`wrap()` does not verify tokenIds array is the same length as proofs before calling _validateTokenIds().",
+  "issueId": 257,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/257"
+}
