@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ad3sh_",
+  "risk": "",
+  "title": "Solmate safetransfer and safetransferfrom does not check the code size of the token address, which may lead to funding loss",
+  "issueId": 219,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/219"
+}
