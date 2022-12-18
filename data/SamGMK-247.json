@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "SamGMK",
+  "risk": "",
+  "title": "addQuote() doesn’t subtract liquidity during initial mint",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/247"
+}
