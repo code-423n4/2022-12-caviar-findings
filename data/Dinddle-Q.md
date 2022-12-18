@@ -1,0 +1,1 @@
+The project state that "Caviar is a fully on-chain **NFT** AMM that allows you to trade every **NFT** in a collection (...)" however, the protocol can only handle ERC721 contracts at the moment and not ERC1155 NFTs. The protocol should be more specific on what standard it supports as to not confuse users.
