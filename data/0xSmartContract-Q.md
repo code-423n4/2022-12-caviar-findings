@@ -26,8 +26,9 @@ Total 7 issues
 | [N-08] |Use of bytes.concat() instead of `abi.encodePacked()` | 1 |
 | [N-09] |Pragma version^0.8.17  version too recent to be trusted| All Contracts |
 | [N-10] |Add EIP-2981 NFT Royalty Standart Support | 1  |
+| [N-11] |Showing the actual values of numbers in NatSpec comments makes checking and reading code easier | 2  |
 
-Total 10 issues
+Total 11 issues
 
 
 ### Suggestions
@@ -603,6 +604,19 @@ Upgradeable royalties: Allows a legal entity or NFT owner to change any copyrigh
 Incremental royalties: No royalties, for example when sold for less than $100
 Managed royalties : Funds are owned by a DAO, imagine the recipient is a DAO treasury
 Royalties to different people : Collectors and artists can even use royalties, not specific to a particular personality
+
+
+### [N-11] Showing the actual values of numbers in NatSpec comments makes checking and reading code easier
+
+
+```diff
+src/Pair.sol:
+  19  
+-  20:     uint256 public constant ONE = 1e18
++  20:     uint256 public constant ONE = 1e18;  // 1_000_000_000_000_000_000
+-  21:     uint256 public constant CLOSE_GRACE_PERIOD = 7 days; 
++  21:     uint256 public constant CLOSE_GRACE_PERIOD = 7 days; // 604_800 ( 7 * 24 * 60 * 60)
+```
 
 ### [S-01] Project Upgrade and Stop Scenario should be
 
