@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "Lambda",
+  "risk": "",
+  "title": "ERC777 reentrancy allows price manipulation",
+  "issueId": 258,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/258"
+}
