@@ -2,7 +2,7 @@
 ### Low Risk Issues List
 | Number |Issues Details|Context|
 |:--:|:-------|:--:|
-|[L-01]|Missing ReEntrancy Guard to `wrap` function| 1 |
+|[L-01]| Missing ReEntrancy Guard to `withdraw` function | 1 |
 |[L-02]| Use ```safeTransferOwnership``` instead of ```transferOwnership``` function | 1 |
 |[L-03]| Missing Event for critical parameters init and change| 3 |
 |[L-04]| Loss of precision due to rounding| 1 |
@@ -38,44 +38,32 @@ Total 10 issues
 
 Total 2 suggestions
 
-### [L-01] Missing ReEntrancy Guard to `wrap` function
+### [L-01] Missing ReEntrancy Guard to `withdraw` function
 
-https://github.com/code-423n4/2022-12-caviar/blob/main/src/Pair.sol#L217-L243
+https://github.com/code-423n4/2022-12-caviar/blob/main/src/Pair.sol#L359-L373
 
 ### Impact
 
-Position.sol contract has no Re-Entrancy protection in `wrap` function
+Position.sol contract has no Re-Entrancy protection in `withdraw` function
 
 ```solidity
 src/Pair.sol:
-  216      /// @return fractionalTokenAmount The amount of fractional tokens minted.
-  217:     function wrap(uint256[] calldata tokenIds, bytes32[][] calldata proofs)
-  218:         public
-  219:         returns (uint256 fractionalTokenAmount)
-  220:     {
-  221:         // *** Checks *** //
-  222: 
-  223:         // check that wrapping is not closed
-  224:         require(closeTimestamp == 0, "Wrap: closed");
-  225: 
-  226:         // check the tokens exist in the merkle root
-  227:         _validateTokenIds(tokenIds, proofs);
-  228: 
-  229:         // *** Effects *** //
-  230: 
-  231:         // mint fractional tokens to sender
-  232:         fractionalTokenAmount = tokenIds.length * ONE;
-  233:         _mint(msg.sender, fractionalTokenAmount);
-  234: 
-  235:         // *** Interactions *** //
-  236: 
-  237:         // transfer nfts from sender
-  238:         for (uint256 i = 0; i < tokenIds.length; i++) {
-  239:             ERC721(nft).safeTransferFrom(msg.sender, address(this), tokenIds[i]);
-  240:         }
-  241: 
-  242:         emit Wrap(tokenIds);
-  243:     }
+
+ function withdraw(uint256 tokenId) public {
+        // check that the sender is the caviar owner
+        require(caviar.owner() == msg.sender, "Withdraw: not owner");
+
+        // check that the close period has been set
+        require(closeTimestamp != 0, "Withdraw not initiated");
+
+        // check that the close grace period has passed
+        require(block.timestamp >= closeTimestamp, "Not withdrawable yet");
+
+        // transfer the nft to the caviar owner
+        ERC721(nft).safeTransferFrom(address(this), msg.sender, tokenId);
+
+        emit Withdraw(tokenId);
+    }
 
 ```
 
@@ -83,6 +71,27 @@ if the mint was initiated by a contract, then the contract is checked for its ab
 https://www.paradigm.xyz/2021/08/the-dangers-of-surprising-code
 
 
+
+
+### Proof of Concept
+If `withdraw` is msg.sender contract, it can do re-entrancy by overriding `onERC721Received` function, it doesn't seem to be a serious problem since it conforms to check-effect-interaction pattern, but this is a clear re-entry due to access to other functions and pre-emit processing. is the entracy
+
+
+
+```solidity
+reentrancy.sol:
+ function onERC721Received(
+    address,
+    address,
+    uint256,
+    bytes memory
+  ) public virtual override returns (bytes4) {
+    //...do something
+    }
+    return this.onERC721Received.selector;
+  }
+
+```
 
 ### Recommended Mitigation Steps
 Use Openzeppelin or Solmate Re-Entrancy pattern
