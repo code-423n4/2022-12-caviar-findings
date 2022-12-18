@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "KingNFT",
+  "risk": "",
+  "title": "Manipulate pair price by reentrancy attack while the base token is an ERC777 token",
+  "issueId": 211,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/211"
+}
