@@ -79,3 +79,10 @@ File: src/Pair.sol
 172:  ERC20(baseToken).safeTransferFrom(msg.sender, address(this), inputAmount);
 ```
 
+# [L-AH-01] BaseToken cannot be withdrawn if LP token is lost. 
+
+## Summary
+The baseToken sent to Pair contract by the `add` method can only be retrieved by calling the `remove` method; if the LP token is sent to a zero address, for example, the baseToken cannot be retrieved.
+
+This is a valid issue because [the doc](https://github.com/code-423n4/2022-12-caviar/blob/main/docs/SECURITY.md#stuck-tokensnfts) does't say about LP token is stuck.
+
