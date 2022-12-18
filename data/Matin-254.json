@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "Matin",
+  "risk": "",
+  "title": "Solmate's safeTransfer function does not check the code size of the contract",
+  "issueId": 254,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/254"
+}
