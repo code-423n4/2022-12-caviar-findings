@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "SamGMK",
+  "risk": "",
+  "title": "`onlyOwner` modifier on  _burn() can be bypassed",
+  "issueId": 248,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/248"
+}
