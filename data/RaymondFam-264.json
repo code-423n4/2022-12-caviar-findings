@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "RaymondFam",
+  "risk": "",
+  "title": "Inadequate checks on `buy()` and `sell()` of `Pair.sol`",
+  "issueId": 264,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/264"
+}
