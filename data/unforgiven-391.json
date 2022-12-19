@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "unforgiven",
+  "risk": "",
+  "title": "attacker steal funds because functions buy() shouldn't revert when user pays 0 amount and receive fractional token",
+  "issueId": 391,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/391"
+}
