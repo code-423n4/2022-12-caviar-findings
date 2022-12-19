@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "Tricko",
+  "risk": "",
+  "title": "Pair.sol can be manipulated to affect small liquidity providers.",
+  "issueId": 469,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/469"
+}
