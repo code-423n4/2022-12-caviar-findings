@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "0Kage",
+  "risk": "",
+  "title": "Malicious user can create multiple pools for same NFT/base token pair by changing merkle roots leading to duplicate LP tokens",
+  "issueId": 385,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/385"
+}
