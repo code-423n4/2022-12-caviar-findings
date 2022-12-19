@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "simon135",
+  "risk": "",
+  "title": "If a user wants to take all the fractional tokens it wont work beacuse of division 0",
+  "issueId": 403,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/403"
+}
