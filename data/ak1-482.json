@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "ak1",
+  "risk": "",
+  "title": "Pair.sol : baseTokenReserves() can be manipulatable if the base token is native token",
+  "issueId": 482,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/482"
+}
