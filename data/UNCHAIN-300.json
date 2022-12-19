@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "UNCHAIN",
+  "risk": "",
+  "title": "[UNCHAIN-M#8] No ability for users to apply for griefed, and in some cases, users’ assets could be locked into Pair contracts",
+  "issueId": 300,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/300"
+}
