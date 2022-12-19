@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "0xmuxyz",
+  "risk": "",
+  "title": "`safeTransfer()` / `safeTransferfrom()` powered by `Solmate's SafeTransferLib` does not check the code size of the token address",
+  "issueId": 284,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/284"
+}
