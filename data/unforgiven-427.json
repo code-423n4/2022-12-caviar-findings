@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "unforgiven",
+  "risk": "",
+  "title": "_transferFrom() in Pair contract doesn't update approval amounts when transferring user fractional tokens",
+  "issueId": 427,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/427"
+}
