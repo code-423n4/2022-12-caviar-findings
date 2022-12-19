@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "9svR6w",
+  "risk": "",
+  "title": "ERC777 baseToken allows reentrant transactions at preferential prices",
+  "issueId": 268,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/268"
+}
