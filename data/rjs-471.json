@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "rjs",
+  "risk": "",
+  "title": "MEV searchers can capture slippage tolerance on pool creation",
+  "issueId": 471,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/471"
+}
