@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "Avci",
+  "risk": "",
+  "title": "there is no check for ensure closeTimestamp is not bigger than timestamp",
+  "issueId": 509,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/509"
+}
