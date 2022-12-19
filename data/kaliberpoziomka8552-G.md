@@ -1,0 +1,2 @@
+### Gas saving opportunity in `withdraw(...)` function
+Function `withdraw(...)` reads data from storage variable `closeTimestamp` twice. Cold access of storage variable costs 2100 gas. If data from storage is accessed multiple times without modifying the state variable, it is better to cache that data by creating copy of that variable in memory. Accessing data from memory costs much less gas.
