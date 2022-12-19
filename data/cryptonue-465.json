@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "cryptonue",
+  "risk": "",
+  "title": "User didn't get an lpToken when trying to add liquidity to the pair with some baseTokenAmount",
+  "issueId": 465,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/465"
+}
