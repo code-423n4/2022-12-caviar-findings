@@ -16,7 +16,7 @@ Recommend adding a check for adequate balance of fractional tokens to burn
 
 ## Finding 3
 #### No liquidity ratio enforcement in Pair.add()
-Whichever token parameter is not the winner of the 'return Math.min(baseTokenShare, fractionalTokenShare)' call within the addQuote internal function becomes essentially irrelevant. The caller can make that token input arbitrarily large without affecting the result of this function - so they both receive nothing in return and alter the balance of the pool which could have unintended effects on the traded asset's price.
+Whichever token parameter is not the winner of the 'return Math.min(baseTokenShare, fractionalTokenShare)' call within the addQuote internal function becomes essentially irrelevant. The caller can make that token input arbitrarily large without affecting the result of this function - so they both receive nothing in return and alter the balance of the pool which could have unintended (sometimes quite large) effects on the traded asset's price.
 
 Relevant code: https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L63-L77
 
