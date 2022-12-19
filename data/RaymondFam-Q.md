@@ -26,3 +26,25 @@ https://github.com/code-423n4/2022-12-caviar/blob/main/src/Caviar.sol#L53-L54
         // delete the pair
         delete pairs[nft][baseToken][merkleRoot];
 ```
+## Rebase/fee-on-transfer tokens
+Since rebase and fee-on-transfer tokens are not supported by the AMM, there should be a whitelist logic in [`create()`](https://github.com/code-423n4/2022-12-caviar/blob/main/src/Caviar.sol#L28-L43) of `Caviar.sol` preventing the deployment of any pair that would have `baseToken` associated with them. Otherwise, there will not be any guarantee of not using these tokens to break the swap curve and liquidity maths.
+
+## Stuck tokens/nfts
+There is simply no other contracts that could prevent this from happening. Consider implementing access controlled withdraw function to cater for that. It could be something as follows:
+
+```
+    function withdrawOtherToken(ERC20 otherToken) external {
+        require(caviar.owner() == msg.sender, "withdrawOtherToken: not owner");
+        require(address(otherToken) != baseToken, "INVALID_TOKEN"); 
+        uint256 bal = otherToken.balanceOf(address(this));
+        require(bal > 0, "INSUFFICIENT_BALANCE");
+        otherToken.safeTransfer(msg.sender, bal);
+    } 
+```
+```
+    function withdrawOtherNft(ERC721 _otherNft, uint256 tokenId) external {
+        require(caviar.owner() == msg.sender, "withdrawOtherNft: not owner");
+        require(address(otherNft) != nft, "INVALID_NFT"); 
+        otherNft.safeTransferFrom(address(this), msg.sender, tokenId);
+    } 
+```
