@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "unforgiven",
+  "risk": "",
+  "title": "user funds loos because function add() doesn't return the extra amount of baseToken or fractionalToken to the user",
+  "issueId": 340,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/340"
+}
