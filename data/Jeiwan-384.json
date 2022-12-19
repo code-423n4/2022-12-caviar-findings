@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "Jeiwan",
+  "risk": "",
+  "title": "Pair price initialization may be front run",
+  "issueId": 384,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/384"
+}
