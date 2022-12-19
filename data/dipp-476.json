@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "dipp",
+  "risk": "",
+  "title": "Users could receive 0 LPTokens when calling ```add```",
+  "issueId": 476,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/476"
+}
