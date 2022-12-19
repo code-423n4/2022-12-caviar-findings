@@ -34,7 +34,7 @@ contract AddingIndexedToEvents {
     // Sell() optimized  26,127 gas (119 cheaper)
 
     // Wrap() unoptimized 35,164 gas (note: my demo using storage access)
-    // Wrap() optimized 34,438 gas (726 cheaper - suspect I have a bug when testing this )
+    // Wrap() optimized 34,438 gas (726 cheaper)
 
     // Unwrap() unoptimized 35,164 gas (note: also using storage access)
     // Unwrap() optimized 34,438 gas
@@ -56,9 +56,8 @@ contract AddingIndexedToEvents {
 }
 ```
 
-Note: no difference to deploy cost.
+Note: no difference to deploy cost. Practically it might not make sense for all of those events to use indexed, but the tokenIds in Wrap/Unwrap/Withdraw would be a good candidate.
 
-Caviar.sol does use indexed params.
 
 
 -------------
