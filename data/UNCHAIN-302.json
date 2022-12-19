@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "UNCHAIN",
+  "risk": "",
+  "title": "[UNCHAIN-M#10 ]There is a risk that overflow will occur and the price of the fractional token will not be appropriate.",
+  "issueId": 302,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/302"
+}
