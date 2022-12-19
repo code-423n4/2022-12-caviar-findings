@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "0Kage",
+  "risk": "",
+  "title": "`unwrap` function in `Pair.sol` can be exploited by a malicious user to exchange less expensive NFT's for more expensive ones in the pool",
+  "issueId": 461,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/461"
+}
