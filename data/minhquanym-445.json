@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "minhquanym",
+  "risk": "",
+  "title": "Reentrancy issue #1: Functions `buy()` and `add()` are vulnerable to reentrancy attack through `tokensToSend()` hook of ERC777",
+  "issueId": 445,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/445"
+}
