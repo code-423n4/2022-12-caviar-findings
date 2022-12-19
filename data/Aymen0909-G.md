@@ -8,7 +8,7 @@
 | 2    | internal function `_baseTokenReserves()` should be called to get the base token reserve instead of `baseTokenReserves()`  |  4 |
 | 3    | `x += y/x -= y` costs more gas than `x = x + y/x = x - y` for state variables  |  2 |
 | 4    | Splitting `require()` statements that uses && saves gas  |  1 |
-| 5    | `public` functions not called by the contract should be declared `external` instead |  7 |
+| 5    | `public` functions not called by the contract should be declared `external` instead |  10 |
 | 6    | `++i/i++` should be `unchecked{++i}`/`unchecked{i++}` when it is not possible for them to overflow, as in the case when used in for & while loops |  7  |
 
 
@@ -92,7 +92,7 @@ require(baseTokenAmount > 0 && fractionalTokenAmount > 0, "Input token amount is
 
 The `public` functions that are not called inside the contract should be declared `external` instead to save gas.
 
-There are 7 instances of this issue:
+There are 10 instances of this issue:
 
 File: src/Caviar.sol [Line 28](https://github.com/code-423n4/2022-12-caviar/blob/main/src/Caviar.sol#L28)
 ```
@@ -112,6 +112,31 @@ function mint(address to, uint256 amount) public
 File: src/LpToken.sol [Line 26](https://github.com/code-423n4/2022-12-caviar/blob/main/src/LpToken.sol#L26)
 ```
 function mint(address to, uint256 amount) public 
+```
+
+File: src/Pair.sol [Line 275](https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L275-L280)
+```
+function nftAdd(
+    uint256 baseTokenAmount,
+    uint256[] calldata tokenIds,
+    uint256 minLpTokenAmount,
+    bytes32[][] calldata proofs
+) public payable returns (uint256 lpTokenAmount)
+```
+
+File: src/Pair.sol [Line 294](https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L294)
+```
+function nftRemove(uint256 lpTokenAmount, uint256 minBaseTokenOutputAmount, uint256[] calldata tokenIds) public
+```
+
+File: src/Pair.sol [Line 310](https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L310)
+```
+function nftBuy(uint256[] calldata tokenIds, uint256 maxInputAmount) public payable returns (uint256 inputAmount) public 
+```
+
+File: src/Pair.sol [Line 323](https://github.com/code-423n4/2022-12-caviar/blob/0212f9dc3b6a418803dbfacda0e340e059b8aae2/src/Pair.sol#L323)
+```
+function nftSell(uint256[] calldata tokenIds, uint256 minOutputAmount, bytes32[][] calldata proofs) public 
 ```
 
 File: src/Pair.sol [Line 341](https://github.com/code-423n4/2022-12-caviar/blob/main/src/Pair.sol#L341)
