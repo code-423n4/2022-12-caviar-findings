@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "UNCHAIN",
+  "risk": "",
+  "title": "[UNCHAIN-H#7] The value of the lpToken could be manipulated by sending baseToken directly.",
+  "issueId": 311,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/311"
+}
