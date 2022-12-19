@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "UNCHAIN",
+  "risk": "",
+  "title": "[UNCHAIN-H#2] Attacker can steal NFTs by calling unwrap()",
+  "issueId": 306,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/306"
+}
