@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "UNCHAIN",
+  "risk": "",
+  "title": "[UNCHAIN-H#5]  Reentrancy when the wrapping function is called",
+  "issueId": 309,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/309"
+}
