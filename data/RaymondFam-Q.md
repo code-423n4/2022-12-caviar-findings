@@ -80,3 +80,5 @@ import {Owned} from "solmate/auth/Owned.sol";
 import {SafeERC20Namer} from "./lib/SafeERC20Namer.sol";
 import {Pair.sol} from "./Pair.sol";
 ```
+## Non-fungible nature of NFTs
+It is difficult to maintain a collection of NFTs with the same values considering at some point in the future, some of them are going to be worth more than the others. When this happened, traders would race into cherry picking the `tokenIds` desired when attempting to call `nftBuy()` and/or `unwrap()`.
