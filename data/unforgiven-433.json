@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "unforgiven",
+  "risk": "",
+  "title": "attacker can perform greiffng attack and prevent other users from unwrapping list of NFT tokens by front-running and unwrapping last token id that user specified first which would make user transaction to fail",
+  "issueId": 433,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/433"
+}
