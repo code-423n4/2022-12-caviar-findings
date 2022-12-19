@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "Chom",
+  "risk": "",
+  "title": "Add liquidity may pull tokens from the user more than necessary.",
+  "issueId": 285,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/285"
+}
