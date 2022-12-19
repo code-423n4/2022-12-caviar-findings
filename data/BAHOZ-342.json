@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "BAHOZ",
+  "risk": "",
+  "title": "Unbalanced liq add() does not refund ",
+  "issueId": 342,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/342"
+}
