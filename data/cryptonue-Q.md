@@ -68,3 +68,20 @@ Named import (example)
 2: import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 3: import {EnumerableSet} from "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 ```
+
+# [N-04] Constants should be defined rather than using magic numbers
+
+The 997 and 1000 should be defined.
+
+```solidity
+File: Pair.sol
+398:     function buyQuote(uint256 outputAmount) public view returns (uint256) {
+399:         return (outputAmount * 1000 * baseTokenReserves()) / ((fractionalTokenReserves() - outputAmount) * 997);
+400:     }
+401: 
+...
+406:     function sellQuote(uint256 inputAmount) public view returns (uint256) {
+407:         uint256 inputAmountWithFee = inputAmount * 997;
+408:         return (inputAmountWithFee * baseTokenReserves()) / ((fractionalTokenReserves() * 1000) + inputAmountWithFee);
+409:     }
+```
