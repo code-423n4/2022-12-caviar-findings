@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "UNCHAIN",
+  "risk": "",
+  "title": "[UNCHAIN-M#12 ] A user can create a pair with an NFT that does not support ERC721 (like CryptoPunk), and a user cannot wrap and unwrap",
+  "issueId": 304,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/304"
+}
