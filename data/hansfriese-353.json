@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "hansfriese",
+  "risk": "",
+  "title": "Protocol should maintain the reserve amount in storage and use that for buy/sell interactions",
+  "issueId": 353,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/353"
+}
