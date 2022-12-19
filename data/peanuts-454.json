@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "peanuts",
+  "risk": "",
+  "title": "Protocol's fractional token assumes that each NFT in a collection has the same value",
+  "issueId": 454,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/454"
+}
