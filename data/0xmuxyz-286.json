@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "0xmuxyz",
+  "risk": "",
+  "title": "Should replace `bytes23()` with `bytes32()` to check the value of `merkleRoot`",
+  "issueId": 286,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/286"
+}
