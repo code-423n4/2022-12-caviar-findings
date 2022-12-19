@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "0Kage",
+  "risk": "",
+  "title": "No validation check on NFT address while creating a new pool",
+  "issueId": 402,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/402"
+}
