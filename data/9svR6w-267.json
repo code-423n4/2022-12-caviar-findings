@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "9svR6w",
+  "risk": "",
+  "title": "Caviar create() can be front-run, allowing malicious user to be recorded as canonical caller to create() and possibly receive preference when communicating out of band with Caviar admin",
+  "issueId": 267,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/267"
+}
