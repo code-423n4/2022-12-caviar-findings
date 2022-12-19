@@ -1,0 +1,8 @@
+{
+  "contest": 193,
+  "handle": "CRYP70",
+  "risk": "",
+  "title": "Malicious Users are able to Unwrap Arbitrary Token IDs",
+  "issueId": 280,
+  "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/280"
+}
