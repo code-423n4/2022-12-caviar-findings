@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Tricko",
-  "risk": "",
+  "risk": "2",
   "title": "Price calculation is wrong and does not take into account token decimals.",
   "issueId": 386,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/386"
