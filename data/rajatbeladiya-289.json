@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "rajatbeladiya",
-  "risk": "",
+  "risk": "3",
   "title": "Attacker can steal fractional tokens",
   "issueId": 289,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/289"
