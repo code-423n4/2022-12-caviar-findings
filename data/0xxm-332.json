@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "0xxm",
-  "risk": "",
+  "risk": "3",
   "title": "User Found Loss When Adding Liquidity",
   "issueId": 332,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/332"
