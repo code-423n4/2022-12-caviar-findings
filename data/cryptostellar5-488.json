@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "cryptostellar5",
-  "risk": "",
+  "risk": "2",
   "title": "ERC20 TOKENS WITH DIFFERENT DECIMALS THAN 18 MAY BREAK THE LOGIC AND PROVIDE UNEXPECTED RESULTS",
   "issueId": 488,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/488"
