@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Dinddle",
-  "risk": "",
+  "risk": "2",
   "title": "Library used to create merkle proofs is vulnerable",
   "issueId": 190,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/190"
