@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "hihen",
-  "risk": "",
+  "risk": "2",
   "title": "A malicious user can make a pair infeasible for small liquidity providers to provide any liquidity",
   "issueId": 207,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/207"
