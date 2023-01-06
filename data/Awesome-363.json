@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Awesome",
-  "risk": "",
+  "risk": "2",
   "title": "users may be unable to unstake their assets",
   "issueId": 363,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/363"
