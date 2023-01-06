@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "carlitox477",
-  "risk": "",
+  "risk": "3",
   "title": "Reentrancy in buy function for ERC777 tokens allows buying funds with considerable discount",
   "issueId": 343,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/343"
