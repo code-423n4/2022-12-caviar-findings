@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "0xmuxyz",
-  "risk": "",
+  "risk": "3",
   "title": "A liquidity provider receives smaller amount of `LpTokens` than they expected if the smaller number of decimals token (eg. USDC) is used as a `baseToken`",
   "issueId": 274,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/274"
