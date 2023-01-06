@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "BPZ",
-  "risk": "",
+  "risk": "3",
   "title": "Pair.sol contract is susceptible to having its pricing curve (x*y = k) manipulated through a 3rd party contract calling selfdestruct() and forwarding ether.",
   "issueId": 506,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/506"
