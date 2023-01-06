@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "yixxas",
-  "risk": "",
+  "risk": "2",
   "title": "`fractionalTokens` can be stolen from the protocol with `buy()` whenever liquidity pool is unbalanced",
   "issueId": 129,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/129"
