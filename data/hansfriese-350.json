@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "hansfriese",
-  "risk": "",
+  "risk": "3",
   "title": "The pair contract should refund the excess funds to liquidity providers",
   "issueId": 350,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/350"
