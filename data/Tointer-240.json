@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Tointer",
-  "risk": "",
+  "risk": "2",
   "title": "Broken add function with malicious pool initialization",
   "issueId": 240,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/240"
