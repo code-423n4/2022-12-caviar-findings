@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "CRYP70",
-  "risk": "",
+  "risk": "3",
   "title": "Critical Faw in Providing Liquidity Results in an Immediate Loss of Funds",
   "issueId": 278,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/278"
