@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Apocalypto",
-  "risk": "",
+  "risk": "3",
   "title": "wrong token address may lead to DoS AMM Functionalities",
   "issueId": 456,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/456"
