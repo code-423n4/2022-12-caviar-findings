@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "cryptostellar5",
-  "risk": "",
+  "risk": "2",
   "title": "SOLMATE SAFETRANSFER AND SAFETRANSFERFROM DOES NOT CHECK THE CODESIZE OF THE TOKEN ADDRESS, WHICH MAY LEAD TO FUND LOSS",
   "issueId": 431,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/431"
