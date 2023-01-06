@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "peanuts",
-  "risk": "",
+  "risk": "2",
   "title": "Wrong decimal calculation in Pair.price()",
   "issueId": 423,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/423"
