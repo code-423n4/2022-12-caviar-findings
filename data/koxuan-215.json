@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "koxuan",
-  "risk": "",
+  "risk": "2",
   "title": "initial liquidity token amount precision is calculated wrongly",
   "issueId": 215,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/215"
