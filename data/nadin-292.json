@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "nadin",
-  "risk": "",
+  "risk": "2",
   "title": "Contracts that lock Ether",
   "issueId": 292,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/292"
