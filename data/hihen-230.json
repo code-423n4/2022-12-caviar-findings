@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "hihen",
-  "risk": "",
+  "risk": "2",
   "title": "Pair.sell() should revert if outputAmount is 0",
   "issueId": 230,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/230"
