@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "obront",
-  "risk": "",
+  "risk": "2",
   "title": "User can create multiple identical pools & emit identical Create events by reentering via phony token",
   "issueId": 135,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/135"
