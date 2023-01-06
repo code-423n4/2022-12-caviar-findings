@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "UNCHAIN",
-  "risk": "",
+  "risk": "2",
   "title": "[UNCHAIN M#9] No check success of executing transferFrom ",
   "issueId": 301,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/301"
