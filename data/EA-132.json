@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "EA",
-  "risk": "",
+  "risk": "3",
   "title": "Unrestricted Pair Creation Allows for Potential Reentrancy Attacks",
   "issueId": 132,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/132"
