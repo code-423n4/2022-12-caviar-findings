@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "minhquanym",
-  "risk": "",
+  "risk": "3",
   "title": "First depositor can break minting of shares",
   "issueId": 442,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/442"
