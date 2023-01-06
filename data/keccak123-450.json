@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "keccak123",
-  "risk": "",
+  "risk": "2",
   "title": "Merkle root of zero bypasses validation",
   "issueId": 450,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/450"
