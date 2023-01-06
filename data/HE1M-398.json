@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "HE1M",
-  "risk": "",
+  "risk": "3",
   "title": "Stealing liquidity provider's fund by manipulating the reserve",
   "issueId": 398,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/398"
