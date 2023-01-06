@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "ak1",
-  "risk": "",
+  "risk": "3",
   "title": "A malicious early user/attacker can manipulate the lpToken's pricePerShare to take an unfair share of future users' deposits",
   "issueId": 470,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/470"
