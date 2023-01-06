@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "imare",
-  "risk": "",
+  "risk": "2",
   "title": "airdops are trapped inside the ``Pair`` contract",
   "issueId": 176,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/176"
