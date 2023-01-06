@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "8olidity",
-  "risk": "",
+  "risk": "3",
   "title": "Attackers can use `unwrap()` to buy any NFT that is on sale at a fixed price",
   "issueId": 163,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/163"
