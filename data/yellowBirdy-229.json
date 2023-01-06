@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "yellowBirdy",
-  "risk": "",
+  "risk": "3",
   "title": "LP providers can't remove the full value if current amount after price movement. May be used by front runners to manipulate the price.",
   "issueId": 229,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/229"
