@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "ak1",
-  "risk": "",
+  "risk": "2",
   "title": "Pair.sol:close()  does not recover any of the base token / liquidity tokens before destroying it",
   "issueId": 474,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/474"
