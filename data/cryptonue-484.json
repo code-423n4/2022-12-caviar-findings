@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "cryptonue",
-  "risk": "",
+  "risk": "3",
   "title": "LP pricing formula is vulnerable to flash loan manipulation ",
   "issueId": 484,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/484"
