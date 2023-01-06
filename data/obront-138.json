@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "obront",
-  "risk": "",
+  "risk": "2",
   "title": "Any NFT sent directly to the Pair is irrecoverable, because fractional token exchange rate is fixed",
   "issueId": 138,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/138"
