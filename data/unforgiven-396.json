@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "unforgiven",
-  "risk": "",
+  "risk": "2",
   "title": "user fund loss because function sell() won't revert when outputAmount 0 and user would sell some fractional tokens and receive 0 base tokens",
   "issueId": 396,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/396"
