@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "bulej93",
-  "risk": "",
+  "risk": "2",
   "title": "baseTokenReserves() and fractionalTokenReserves() start at 0 on contract deployment which causes arithmetic undeflow/overflow",
   "issueId": 212,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/212"
