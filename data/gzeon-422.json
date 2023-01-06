@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "gzeon",
-  "risk": "",
+  "risk": "2",
   "title": "Price manipulation if baseToken have transfer hook",
   "issueId": 422,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/422"
