@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "ElKu",
-  "risk": "",
+  "risk": "3",
   "title": "NFT's can be traded without paying the 0.3% liquidity pool fee",
   "issueId": 227,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/227"
