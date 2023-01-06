@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Avci",
-  "risk": "",
+  "risk": "2",
   "title": "there is no max value for min lp in add function ",
   "issueId": 502,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/502"
