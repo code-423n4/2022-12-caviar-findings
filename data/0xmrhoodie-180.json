@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "0xmrhoodie",
-  "risk": "",
+  "risk": "3",
   "title": "Pairs not resilient to ERC20s implementing transfer fees (as USDT could do)",
   "issueId": 180,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/180"
