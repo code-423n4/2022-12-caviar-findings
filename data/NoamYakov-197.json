@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "NoamYakov",
-  "risk": "",
+  "risk": "2",
   "title": "It's impossible to buy all fractional tokens from a pair",
   "issueId": 197,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/197"
