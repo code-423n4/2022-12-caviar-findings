@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "unforgiven",
-  "risk": "",
+  "risk": "2",
   "title": "unwrap() doesn't check that token ids are wrapped tokens and attacker can steal air dropped tokens or users could lose tokens if they specify wrong token ids transferred directly to contract",
   "issueId": 319,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/319"
