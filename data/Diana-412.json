@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Diana",
-  "risk": "",
+  "risk": "2",
   "title": "`wrap()` , `unwrap()`, `_validateTokenIds()` ARE SUSCEPTIBLE TO DOS WITH BLOCK GAS LIMIT",
   "issueId": 412,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/412"
