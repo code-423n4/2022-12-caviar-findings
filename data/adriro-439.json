@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "adriro",
-  "risk": "",
+  "risk": "G",
   "title": "Gas Optimizations",
   "issueId": 439,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/439"
