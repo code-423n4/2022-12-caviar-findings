@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Deivitto",
-  "risk": "",
+  "risk": "2",
   "title": "`Pair.sol` has payable functions with no way of withdrawing that ether",
   "issueId": 505,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/505"
