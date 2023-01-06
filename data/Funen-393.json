@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Funen",
-  "risk": "",
+  "risk": "2",
   "title": "`pairs` mapping being accessible to anyone and potentially being modified by anyone ",
   "issueId": 393,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/393"
