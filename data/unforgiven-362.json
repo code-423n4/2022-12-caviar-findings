@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "unforgiven",
-  "risk": "",
+  "risk": "3",
   "title": "It's never possible to buy all the fractional tokens because of the division by zero error and also price movement to high prices when trying to buy huge number of fractional tokens",
   "issueId": 362,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/362"
