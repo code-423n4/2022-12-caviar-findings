@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "EA",
-  "risk": "",
+  "risk": "2",
   "title": "Public \"pairs\" mapping allows anyone to access \"pair\" contracts.",
   "issueId": 134,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/134"
