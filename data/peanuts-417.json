@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "peanuts",
-  "risk": "",
+  "risk": "3",
   "title": "Unlimited minting of fractional tokens by calling Pair.wrap() multiple times",
   "issueId": 417,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/417"
