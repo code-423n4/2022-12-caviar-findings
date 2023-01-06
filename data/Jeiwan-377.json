@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Jeiwan",
-  "risk": "",
+  "risk": "3",
   "title": "Liquidity providers may not be able to unwrap NFTs",
   "issueId": 377,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/377"
