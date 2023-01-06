@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Apocalypto",
-  "risk": "",
+  "risk": "2",
   "title": "sellQuote might lead to unexpected reverts when returning zero",
   "issueId": 458,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/458"
