@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "__141345__",
-  "risk": "",
+  "risk": "3",
   "title": "Initial LP mint could be frontrun to set arbitrary price",
   "issueId": 232,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/232"
