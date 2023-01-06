@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "carlitox477",
-  "risk": "",
+  "risk": "2",
   "title": "Solmate safetransfer and safetransferfrom does not check the codesize of the token address, which may lead to fund loss or unexpected behavior for protocol relaying in Caviar Pair affected",
   "issueId": 314,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/314"
