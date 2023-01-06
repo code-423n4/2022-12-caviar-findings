@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Bnke0x0",
-  "risk": "",
+  "risk": "2",
   "title": "Pair can fail on zero amount transfers if baseToken fee is set to zero",
   "issueId": 161,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/161"
