@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "wait",
-  "risk": "",
+  "risk": "3",
   "title": "Wrong token amount is transferred when calling add() of contract Pair",
   "issueId": 388,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/388"
