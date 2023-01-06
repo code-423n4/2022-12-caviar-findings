@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Franfran",
-  "risk": "",
+  "risk": "2",
   "title": "The validity of the NFT id is not checked while unwrapping",
   "issueId": 501,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/501"
