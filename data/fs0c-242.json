@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "fs0c",
-  "risk": "",
+  "risk": "3",
   "title": "The price of fractionalToken can be manipulated such that the future liquidity providers loose their baseTokens",
   "issueId": 242,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/242"
