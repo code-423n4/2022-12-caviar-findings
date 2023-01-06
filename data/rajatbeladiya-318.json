@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "rajatbeladiya",
-  "risk": "",
+  "risk": "2",
   "title": "users can lost their fractional tokens while selling it",
   "issueId": 318,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/318"
