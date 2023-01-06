@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "8olidity",
-  "risk": "",
+  "risk": "2",
   "title": "When the decimals of basetoken are not equal to 18, the result of price() may be 0",
   "issueId": 171,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/171"
