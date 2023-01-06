@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "bytehat",
-  "risk": "",
+  "risk": "3",
   "title": "`buyQuote` rounds the answer down which can be abused for a profit ",
   "issueId": 328,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/328"
