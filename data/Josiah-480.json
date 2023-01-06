@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Josiah",
-  "risk": "",
+  "risk": "2",
   "title": "PRICES CAN BE MANIPULATED WHEN LIQUIDITY IS VERY LOW",
   "issueId": 480,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/480"
