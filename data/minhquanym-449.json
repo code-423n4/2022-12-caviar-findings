@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "minhquanym",
-  "risk": "",
+  "risk": "2",
   "title": "Not supporting fee-on-transfer token as base token",
   "issueId": 449,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/449"
