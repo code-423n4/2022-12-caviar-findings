@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Jeiwan",
-  "risk": "",
+  "risk": "2",
   "title": "Lack of validation of `merkleRoot`",
   "issueId": 379,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/379"
