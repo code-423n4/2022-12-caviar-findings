@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "unforgiven",
-  "risk": "",
+  "risk": "3",
   "title": "it's possible to swap NFT token ids without fee and also attacker can wrap unwrap all the NFT token balance of the Pair contract and steal their air drops for those token ids",
   "issueId": 367,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/367"
