@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "UNCHAIN",
-  "risk": "",
+  "risk": "2",
   "title": "[UNCHAIN-M#2] When users add liquidities there is a vulnerability of overflow",
   "issueId": 294,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/294"
