@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "SmartSek",
-  "risk": "",
+  "risk": "2",
   "title": "Lack of two step ownership transfer might lead to stolen funds.",
   "issueId": 165,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/165"
