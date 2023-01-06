@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "peanuts",
-  "risk": "",
+  "risk": "2",
   "title": "LP providers do not earn protocol fees when user buys or sells fractional tokens",
   "issueId": 392,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/392"
