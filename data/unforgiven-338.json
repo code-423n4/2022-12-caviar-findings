@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "unforgiven",
-  "risk": "",
+  "risk": "3",
   "title": "make token per liquidity very high  by direct early token transfer to Pair contract which would cause users to lose funds when they provide liquidity",
   "issueId": 338,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/338"
