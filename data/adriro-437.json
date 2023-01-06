@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "adriro",
-  "risk": "",
+  "risk": "2",
   "title": "`tokenIds` is not validated in `unwrap` function",
   "issueId": 437,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/437"
