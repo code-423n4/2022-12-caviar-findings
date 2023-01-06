@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "UNCHAIN",
-  "risk": "",
+  "risk": "3",
   "title": "[UNCHAIN-H#4] The ERC721(nft).safeTransferFrom() function does not work because the approve() function or setApprovalForAll() function is not called beforehand.",
   "issueId": 308,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/308"
