@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "peanuts",
-  "risk": "",
+  "risk": "2",
   "title": "_validateTokenIds should revert if merkleRoot is not set",
   "issueId": 421,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/421"
