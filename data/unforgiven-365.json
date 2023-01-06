@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "unforgiven",
-  "risk": "",
+  "risk": "2",
   "title": "Function add() allows minting 0 LP token for user while transferring his/her funds",
   "issueId": 365,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/365"
