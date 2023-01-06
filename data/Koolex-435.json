@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "Koolex",
-  "risk": "",
+  "risk": "2",
   "title": "The admin can create a new pair during the closing grace period",
   "issueId": 435,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/435"
