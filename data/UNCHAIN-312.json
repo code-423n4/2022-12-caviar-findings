@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "UNCHAIN",
-  "risk": "",
+  "risk": "3",
   "title": "[UNCHAIN-H#8] Price calculation in the Pair contract is vulnerable to flashloan manipulation",
   "issueId": 312,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/312"
