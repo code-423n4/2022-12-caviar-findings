@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "amaro",
-  "risk": "",
+  "risk": "2",
   "title": "Centralization Risks, Rug pull vectors",
   "issueId": 483,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/483"
