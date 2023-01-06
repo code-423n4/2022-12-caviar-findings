@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "gzeon",
-  "risk": "",
+  "risk": "2",
   "title": "Owner can close the Pool anytime",
   "issueId": 407,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/407"
