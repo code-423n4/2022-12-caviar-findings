@@ -1,7 +1,7 @@
 {
   "contest": 193,
   "handle": "EA",
-  "risk": "",
+  "risk": "2",
   "title": "Unchecked return value of addQuote() function and removeQuote() function",
   "issueId": 154,
   "issueUrl": "https://github.com/code-423n4/2022-12-caviar-findings/issues/154"
