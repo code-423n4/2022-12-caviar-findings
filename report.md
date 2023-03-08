@@ -1,3 +1,11 @@
+---
+sponsor: "Caviar"
+slug: "2022-12-caviar"
+date: "2023-01-26"
+title: "Caviar contest"
+findings: "https://github.com/code-423n4/2022-12-caviar-findings/issues"
+contest: 193
+---
 
 # Overview
 
